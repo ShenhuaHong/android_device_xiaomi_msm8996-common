@@ -57,7 +57,7 @@ TARGET_BOARD_PLATFORM := msm8996
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno530
 
 # Properties
--include $(LOCAL_PATH)/vendor_prop.mk
+TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
